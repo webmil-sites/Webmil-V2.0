@@ -6,7 +6,7 @@ jQuery.fn.center = function () {
     var n = Math.floor(cont/cont1);
     var leftWidth = Math.floor((cont - cont1*n)/n);
     
-    var widthCont1 = 200;
+    var widthCont1 = 180;
         widthCont1 = (widthCont1 + leftWidth) + 'px';
     $('.work-short-desc').css('width', widthCont1);
     

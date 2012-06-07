@@ -476,9 +476,9 @@ form{
 		
 		.work-short-desc{
 			float: left;
-			width: 200px;
+			width: 180px;
 			height: 160px;
-			padding: 20px 0;
+			padding: 20px 10px;
 			position: relative;
 			a{
 			    color: #fff;
@@ -579,6 +579,8 @@ form{
     .advertising{
 	@include column(24, true);
 	.booklet{
+	    @include column(24, true);
+	    margin-top: 20px;
 	    img{
 		width: 950px;
 	    }
