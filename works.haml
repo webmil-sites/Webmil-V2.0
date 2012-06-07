@@ -1,0 +1,286 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"}
+    %title Webmil
+    %link{'rel' => 'stylesheet', 'href' => 'stylesheets/screen.css', 'media' => 'screen, projection'}
+    %link{rel: 'stylesheet', href: 'stylesheets/print.css', media: 'print'}
+    /[if lt IE 9]
+      %script{src: 'http://html5shiv.googlecode.com/svn/trunk/html5.js'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow&subset=latin,cyrillic'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic,latin-ext'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,latin-ext,cyrillic'}
+    %script{type: 'text/javascript', src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+    %script{type: 'text/javascript', src: 'js/jquery.masonry.min.js'}
+    %script{type: 'text/javascript', src: 'js/center.js'}
+    %script{type: 'text/javascript', src: 'js/jQuery.BlackAndWhite.min.js'}
+    
+  %body
+    .wrap
+      %header
+        .header
+          .left-side
+            .lang-list
+              %ul
+                %li
+                  %a.active.en{href: '#'} eng
+                %li
+                  %a.ua{href: '#'} ua
+            .slogan
+              %img{src: 'images/slogan.png', alt: 'Webmil'}
+            .menu
+              %nav
+                %ul
+                  %li#home
+                    %a{:href => "index.html"} Home
+                  %li#work
+                    %a.active{:href => "works.html"} Works
+                  %li#studio
+                    %a{:href => "studio.html"} Studio
+                  %li#contact
+                    %a{:href => "contacts.html"} Contact us
+          .logo
+            %a{href: "index.html"}
+              %img{src: "images/logo.png", alt: "Webmil"}
+      .works
+        %ul#container.clearfix
+          %li.box.bwWrapper
+            %figure
+              %a{href: 'work.html'}
+                %img.image{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: 'work.html'} web site “Business Concept” company
+                  %a.link{href: 'http://bcu.kiev.ua'} bcu.kiev.ua
+          %li.box.bwWrapper
+            %figure
+              %a{href: 'work.html'}
+                %img.image{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: 'work.html'} Zakhidni Energetychni Tranzyty Ltd.
+                  %a.link{href: 'http://zetrans.biz'} zetrans.biz
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-3.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-3
+                  %p
+                    %a{href: '#'} photobank Expono
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-3.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-3
+                  %p
+                    %a{href: '#'} photobank Expono
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-4.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-4
+                  %p
+                    %a{href: '#'} Timecontrol
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: '#'} Zakhidni Energetychni Tranzyty Ltd.
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: '#'} Zakhidni Energetychni Tranzyty Ltd.
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+          %li.box.bwWrapper
+            %figure
+              %a{href: 'work.html'}
+                %img.image{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: 'work.html'} web site “Business Concept” company
+                  %a.link{href: 'http://bcu.kiev.ua'} bcu.kiev.ua
+          %li.box.bwWrapper
+            %figure
+              %a{href: 'work.html'}
+                %img.image{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: 'work.html'} Zakhidni Energetychni Tranzyty Ltd.
+                  %a.link{href: 'http://zetrans.biz'} zetrans.biz
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-3.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-3
+                  %p
+                    %a{href: '#'} photobank Expono
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-3.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-3
+                  %p
+                    %a{href: '#'} photobank Expono
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-4.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-4
+                  %p
+                    %a{href: '#'} Timecontrol
+                  %a.link{href: '#'} in archive
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: '#'} Zakhidni Energetychni Tranzyty Ltd.
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img.image{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-2.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-2
+                  %p
+                    %a{href: '#'} Zakhidni Energetychni Tranzyty Ltd.
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+          %li.box.bwWrapper
+            %figure
+              %a{href: '#'}
+                %img{src: 'images/portfolio-1.png', alt: 'Portfolio'}
+              %figcaption
+                .work-short-desc.color-1
+                  %p
+                    %a{href: '#'} web site “Business Concept” company
+      .clearfix
+      .footer-push
+    %footer
+      .footer-container
+        .sitemap
+          %h4 Sitemap
+          %ul
+            %li
+              %a{:href => "#"} home
+            %li
+              %a{:href => "#"} works
+            %li
+              %a{:href => "#"} team
+            %li
+              %a{:href => "#"} contacts
+        .resources
+          %h4 Resources
+          %ul
+            %li
+              %a{:href => "#"} facebook
+            %li
+              %a{:href => "#"} twitter
+            %li
+              %a{:href => "#"} RSS feed
+            %li
+              %a{:href => "#"} tumblr
+        .twitter
+          %h4
+            %a.tweet.active{href: '#'} What we're into right now
+            %a.music{href: '#'} What we're listen right now
+          %p 
+            The @namename site we've been working on for @namename1 has won redesign of the year at the UK eCommerce awards. Back slaps all round!
+            %span
+          %span @webmillab
+        .address{itemscope: true,  itemtype: "http://schema.org/Organization"}
+          %h4 Get in touch with us
+          %meta{itemprop: "name", content: "Webmil"}
+          %address{itemscope: true, itemprop: "address" ,itemtype: "http://schema.org/PostalAddress"}
+            .tel{itemprop: "telephone"} +380 342 735 448
+            .mail{itemprop: "email"} info@webmil.com.ua
+            .locality{itemprop: "addressLocality"} UKRAINE, Ivano-Frankivs’k
+            .street{itemprop: "streetAddress"} Sichovyh Strilciv Street, 31
+          %a{href: "#"} Map & directions
+        %p.copyright © 2009-2012 Webmil lab. All rights reserved.
+    %script{'type'=> 'text/javascript'}
+      :plain
+        $(document).ready(function() {
+            $('#container').center();
+            $(window).resize(function() {
+                $('#container').center();
+            });
+            $('.work-short-desc').animate({backgroundColor: 'blue' }, "slow");
+            var $container = $('#container');
+            $container.imagesLoaded( function(){
+                $container.masonry({
+                    itemSelector : '.box',
+                    isAnimated: true
+                });
+            });
+        });
+        $(window).load(function(){
+            $('.bwWrapper').BlackAndWhite({
+                hoverEffect : true,
+                // set the path to BnWWorker.js for a superfast implementation
+                webworkerPath : false,
+                // for the images with a fluid width and height 
+                responsive:true
+            });
+        });

@@ -1,0 +1,151 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"}
+    %title Webmil
+    %link{'rel' => 'stylesheet', 'href' => 'stylesheets/screen.css', 'media' => 'screen, projection'}
+    %link{rel: 'stylesheet', href: 'stylesheets/print.css', media: 'print'}
+    /[if lt IE 9]
+      %script{src: 'http://html5shiv.googlecode.com/svn/trunk/html5.js'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow&subset=latin,cyrillic'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic,latin-ext'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,latin-ext,cyrillic'}
+    %script{type: 'text/javascript', src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+    %script{type: 'text/javascript', src: 'http://maps.googleapis.com/maps/api/js?sensor=false'}
+  %body
+    .wrap
+      %header
+        .header
+          .left-side
+            .lang-list
+              %ul
+                %li
+                  %a.active.en{href: '#'} eng
+                %li
+                  %a.ua{href: '#'} ua
+            .slogan
+              %img{src: 'images/slogan.png', alt: 'Webmil'}
+            .menu
+              %nav
+                %ul
+                  %li#home
+                    %a{:href => "index.html"} Home
+                  %li#work
+                    %a{:href => "works.html"} Works
+                  %li#studio
+                    %a{:href => "studio.html"} Studio
+                  %li#contact
+                    %a.active{:href => "contacts.html"} Contact us
+          .logo
+            %a{href: "index.html"}
+              %img{src: "images/logo.png", alt: "Webmil"}
+      .container
+        .left-address
+          .address{itemscope: true,  itemtype: "http://schema.org/Organization"}
+            %meta{itemprop: "name", content: "CANaction"}
+              %address{itemscope: true, itemprop: "address" ,itemtype: "http://schema.org/PostalAddress"}
+                %h2.adress Adress:
+                .locality{itemprop: "addressLocality"}
+                  %p 76000 Ukraine
+                  %p Ivano-Frankivsk                                 
+                .street{itemprop: "streetAddress"}
+                  %p st. Sichovykh Stril'tsiv, 30
+                %h2.phone Phone:
+                .tel
+                  %p{itemprop: "telephone"} +38 0342 735 448
+                  %p{itemprop: "telephone"} +38 094 922 8448
+                  %p{itemprop: "telephone"} +38 063 757 0020
+                %h2.on-line On-line:
+                .skype
+                  %p
+                    skype:
+                    %span webmil.ltd
+                .mail
+                  %p
+                    e-mail:
+                    %span{itemprop: "email"} info@webmil.com.ua
+        .right-address
+          %h2 How to get
+          #map
+        .form-txt
+          %h2 Contact Us
+          %p Webmil is always open to cooperation. We strive to create new startups and projects you need to be done, bringing in something fresh and interesting all the way. We are thirsty for new people who are able to combine clear and logical thinking with bursting creativeness and unfolded imagination. Are you sure you satisfy these requirements, we will be happy to complete our team with another programming-lover. 
+        %form
+          .form
+            %label{for:'name'} Name
+            %input#name.error{:type=> "text"}
+            %span Please enter your Name
+            %label{for:'subject'} Subject
+            %input#subject{:type=> "text"}
+            %label{for:'email'} E-mail
+            %input#email{:type=> "text"}
+            %label{for:'message'} Message
+            %textarea#message
+            .send
+              %input.send-button{type: "submit", value: "Send"}
+      
+      .footer-push
+    %footer
+      .footer-container
+        .sitemap
+          %h4 Sitemap
+          %ul
+            %li
+              %a{:href => "#"} home
+            %li
+              %a{:href => "#"} works
+            %li
+              %a{:href => "#"} team
+            %li
+              %a{:href => "#"} contacts
+        .resources
+          %h4 Resources
+          %ul
+            %li
+              %a{:href => "#"} facebook
+            %li
+              %a{:href => "#"} twitter
+            %li
+              %a{:href => "#"} RSS feed
+            %li
+              %a{:href => "#"} tumblr
+        .twitter
+          %h4
+            %a.tweet.active{href: '#'} What we're into right now
+            %a.music{href: '#'} What we're listen right now
+          %p 
+            The @namename site we've been working on for @namename1 has won redesign of the year at the UK eCommerce awards. Back slaps all round!
+            %span
+          %span @webmillab
+        .address{itemscope: true,  itemtype: "http://schema.org/Organization"}
+          %h4 Get in touch with us
+          %meta{itemprop: "name", content: "Webmil"}
+          %address{itemscope: true, itemprop: "address" ,itemtype: "http://schema.org/PostalAddress"}
+            .tel{itemprop: "telephone"} +380 342 735 448
+            .mail{itemprop: "email"} info@webmil.com.ua
+            .locality{itemprop: "addressLocality"} UKRAINE, Ivano-Frankivs’k
+            .street{itemprop: "streetAddress"} Sichovyh Strilciv Street, 31
+          %a{href: "#"} Map & directions
+        %p.copyright © 2009-2012 Webmil lab. All rights reserved.
+    %script{'type'=> 'text/javascript'}
+      :plain
+            //google map
+            var init = function(){
+                var myOptions = {
+                    zoom: 15,
+                    streetViewControl: false ,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP};
+                var map = new google.maps.Map(document.getElementById("map"), myOptions);
+                var geocoder = new google.maps.Geocoder();
+                geocoder.geocode( { 'address': 'Івано-Франківськ, Січових Стрільців 30'}, function(results, status){
+                    if (status == google.maps.GeocoderStatus.OK){
+                        map.setCenter(results[0].geometry.location);
+                        var conf ={
+                            map: map,
+                            position: results[0].geometry.location};
+                        var marker = new google.maps.Marker(conf);
+                    }
+                })
+            };
+            google.maps.event.addDomListener(window, 'load', init());

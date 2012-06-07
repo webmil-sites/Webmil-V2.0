@@ -1,0 +1,212 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"}
+    %title Webmil
+    %link{'rel' => 'stylesheet', 'href' => 'stylesheets/screen.css', 'media' => 'screen, projection'}
+    %link{rel: 'stylesheet', href: 'stylesheets/print.css', media: 'print'}
+    /[if lt IE 9]
+      %script{src: 'http://html5shiv.googlecode.com/svn/trunk/html5.js'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow&subset=latin,cyrillic'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic,latin-ext'}
+    %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,latin-ext,cyrillic'}
+    %script{type: 'text/javascript', src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+    %script{type: 'text/javascript', src: 'js/jQuery.BlackAndWhite.min.js'}
+  %body
+    .wrap
+      %header
+        .header
+          .left-side
+            .lang-list
+              %ul
+                %li
+                  %a.active.en{href: '#'} eng
+                %li
+                  %a.ua{href: '#'} ua
+            .slogan
+              %img{src: 'images/slogan.png', alt: 'Webmil'}
+            .menu
+              %nav
+                %ul
+                  %li#home
+                    %a.active{:href => "index.html"} Home
+                  %li#work
+                    %a{:href => "works.html"} Works
+                  %li#studio
+                    %a{:href => "studio.html"} Studio
+                  %li#contact
+                    %a{:href => "contacts.html"} Contact us
+          .logo
+            %a{href: "index.html"}
+              %img{src: "images/logo.png", alt: "Webmil"}
+      .container
+        %section
+          %article
+            .design
+              .logo
+                %img{src: 'images/design.png', alt: 'Design'}
+              .desc
+                %h2 Design
+                %p Attention to detail cannot be explained in plain words, but it could be only felt. Even though it merely targets subconsciousness, it also gives birth to motivations and strongly impacts actual decisions. Poor or well-cut, minimized or stuffed, template-like or hypercreative, website design might either attract or repel your visitors. Through years of experience, we’ve got our own simple secret of conceptual versatility. We tend not borrow ideas, instead we generate brand new ideas ourselves. Simple ideas. This proves to give the most sophistication. Simplicity sells.
+          %article
+            .development
+              .logo
+                %img{src: 'images/development.png', alt:'Development'}
+              .desc
+                %h2 Development
+                %p The process of creating a distinct product resembles building a chain out of separate ideas. Transforming concepts and ideas into solid product was the backbone of our work for many years. Every product needs reliable code. We are proficient in a variety of programming languages and technologies. We like HTML5, CSS3, JavaScript (jQuery), SQLite / MySQL / PostgreSQL, PHP5 (and web-frameworks like Symfony, Symfony 2), Apache, nginx.​ Multiple code reviews, immediate reaction on prohecyplan changes in project plus tight cooperation with client ensure maximum perfected outcome.
+          %article
+            .complex-websites
+              .logo
+                %img{src: 'images/complex-websites.png', alt: 'Complex Websites'}
+              .desc
+                %h2 Complex Websites
+                %p Alongside with software improvement the very interfaces get way more elaborate too, day by day. Leaflet-likeness of websites is now the matter of the past. Taking a good degree of sophistication for granted, we focus on start-ups and turnkey projects of any type. In other words, we are quite start-up-friendly.
+          %article
+            .code-quality
+              .logo
+                %img{src: 'images/code-quality.png', alt: 'Code Quality'}
+              .desc
+                %h2 Code Quality
+                %p Sound software is undoubtedly our major care. For it to be well-tailored, reliable code is of first priority. Apparently, the main objective of our software-making work is to produce code of the best quality, that not only functions smoothly at the time being, but is flexible enough to be updated and applicable with new purposes.
+        %section
+          .statistics
+            .statistics-heading
+              .logo
+                %img{src: 'images/statistics.png', alt: 'Statistics'}
+              .desc
+                %h2 Webmil statistics
+      .border
+        .container
+          .statistic-hours
+            %ul
+              %li.hours-office
+                %h3 196778
+                %p hours killed at the office
+              %li.corp-emails
+                %h3 1298
+                %p corporate emails
+              %li.hours-music
+                %h3 56803
+                %p hours of listening music
+          .frameworks
+            %h3 Frameworks used:
+            %ul
+              %li
+                %p.percent 12%
+                %p YII
+              %li
+                %p.percent 5%
+                %p Zend
+              %li
+                %p.percent 46%
+                %p Sympfony
+              %li
+                %p.percent 15%
+                %p Sympfony 2
+              %li
+                %p.percent 6%
+                %p Codeigniter
+            %p.desc We use programming best practices and write a clean code. After we deliver your project, you can hire anyone to maintain it. It would take them literally minutes to understand our code. Of course we would be happy to maintain the project for you in a long run. 
+          .energy-resources
+            %h3 Energy resources used:
+            .authentic
+              %p do not perceive this information as 100% authentic
+            %ul
+              %li.beer
+                .txt
+                  %h3 236
+                  %p bottles of Beer
+              %li.coffee
+                .txt
+                  %h3 1865
+                  %p cups of Coffee
+              %li.tea
+                .txt
+                  %h3 3865
+                  %p cups of tee
+              %li.bananas
+                .txt
+                  %h3 345
+                  %p bananas
+              %li.cookies
+                .txt
+                  %h3 95
+                  %p kilo of Cookies
+      .container
+        %section
+          .clients
+            %h2 Clients
+            .bw
+              %img{src: "images/portfolio-1.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-2.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-3.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-4.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-1.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-2.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-3.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-4.png", alt: "Clients"}
+    
+      .footer-push
+    %footer
+      .footer-container
+        .sitemap
+          %h4 Sitemap
+          %ul
+            %li
+              %a{:href => "#"} home
+            %li
+              %a{:href => "#"} works
+            %li
+              %a{:href => "#"} team
+            %li
+              %a{:href => "#"} contacts
+        .resources
+          %h4 Resources
+          %ul
+            %li
+              %a{:href => "#"} facebook
+            %li
+              %a{:href => "#"} twitter
+            %li
+              %a{:href => "#"} RSS feed
+            %li
+              %a{:href => "#"} tumblr
+        .twitter
+          %h4
+            %a.tweet.active{href: '#'} What we're into right now
+            %a.music{href: '#'} What we're listen right now
+          %p 
+            The @namename site we've been working on for @namename1 has won redesign of the year at the UK eCommerce awards. Back slaps all round!
+            %span
+          %span @webmillab
+        .address{itemscope: true,  itemtype: "http://schema.org/Organization"}
+          %h4 Get in touch with us
+          %meta{itemprop: "name", content: "Webmil"}
+          %address{itemscope: true, itemprop: "address" ,itemtype: "http://schema.org/PostalAddress"}
+            .tel{itemprop: "telephone"} +380 342 735 448
+            .mail{itemprop: "email"} info@webmil.com.ua
+            .locality{itemprop: "addressLocality"} UKRAINE, Ivano-Frankivs’k
+            .street{itemprop: "streetAddress"} Sichovyh Strilciv Street, 31
+          %a{href: "#"} Map & directions
+        %p.copyright © 2009-2012 Webmil lab. All rights reserved.
+    %script{'type'=> 'text/javascript'}
+      :plain
+        $(window).load(function(){
+            $('.bw').BlackAndWhite({
+                hoverEffect : true,
+                // set the path to BnWWorker.js for a superfast implementation
+                webworkerPath : false,
+                // for the images with a fluid width and height 
+                responsive:true
+            });
+        });
+        
