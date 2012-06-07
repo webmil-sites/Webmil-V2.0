@@ -12,6 +12,7 @@
     %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic,latin-ext'}
     %link{'rel' => 'stylesheet', 'href' => 'http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,latin-ext,cyrillic'}
     %script{type: 'text/javascript', src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+    %script{type: 'text/javascript', src: 'js/jQuery.BlackAndWhite.min.js'}
   %body
     .wrap
       %header
@@ -127,14 +128,22 @@
         %section
           .clients
             %h2 Clients
-            %img{src: "images/1.png", alt: "Clients"}
-            %img{src: "images/2.png", alt: "Clients"}
-            %img{src: "images/3.png", alt: "Clients"}
-            %img{src: "images/5.png", alt: "Clients"}
-            %img{src: "images/3.png", alt: "Clients"}
-            %img{src: "images/4.png", alt: "Clients"}
-            %img{src: "images/5.png", alt: "Clients"}
-            %img{src: "images/3.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-1.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-2.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-3.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-4.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-1.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-2.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-3.png", alt: "Clients"}
+            .bw
+              %img{src: "images/portfolio-4.png", alt: "Clients"}
     
       .footer-push
     %footer
@@ -181,7 +190,13 @@
         %p.copyright © 2009-2012 Webmil lab. All rights reserved.
     %script{'type'=> 'text/javascript'}
       :plain
-        $(document).ready(function() {
-          
+        $(window).load(function(){
+            $('.bw').BlackAndWhite({
+                hoverEffect : true,
+                // set the path to BnWWorker.js for a superfast implementation
+                webworkerPath : false,
+                // for the images with a fluid width and height 
+                responsive:true
+            });
         });
         

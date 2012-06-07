@@ -137,6 +137,25 @@
                     streetViewControl: false ,
                     mapTypeId: google.maps.MapTypeId.ROADMAP};
                 var map = new google.maps.Map(document.getElementById("map"), myOptions);
+                    var pinkParksStyles = [
+                        {
+                            featureType: "all",
+                            stylers: [
+                                { hue: "#e8bf56" },
+                                { saturation: "0" },
+                                { lightness: "-10" },
+
+                            ]
+                        },
+                        {
+                            featureType: "road",
+                            stylers: [
+                                { hue: "#e8bf56" },
+                                { saturation: "-20" }
+                            ]
+                        }
+                    ];
+        map.setOptions({styles: pinkParksStyles});
                 var geocoder = new google.maps.Geocoder();
                 geocoder.geocode( { 'address': 'Івано-Франківськ, Січових Стрільців 30'}, function(results, status){
                     if (status == google.maps.GeocoderStatus.OK){
@@ -149,3 +168,5 @@
                 })
             };
             google.maps.event.addDomListener(window, 'load', init());
+            
+            
