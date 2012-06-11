@@ -1,0 +1,29 @@
+header{
+    .header{
+	.left-side{
+	    @include column(8);
+	    .slogan{
+		display: none;
+	    }
+	    .menu{
+		ul{
+		    li{
+			
+		    }
+		}
+	    }
+	}
+	.logo{
+	    @include column(4);
+	    @include prepend(2);
+	    margin-top: 30px;
+	    a{
+		img{
+		    height: 167px;
+		    width: 167px;
+		    float: left;
+		}
+	    }
+	}
+    }
+}

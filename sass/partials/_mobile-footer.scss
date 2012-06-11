@@ -1,0 +1,22 @@
+footer{
+    min-width: $base-width;
+    .footer-container{
+        @include container;
+        .sitemap{
+            display: none;
+        }
+        .resources{
+            @include column(2);
+	    @include prepend(0);
+        }
+        .twitter{
+            display: none;
+        }
+        .address{
+            @include column(5, true);
+        }
+	.copyright{
+	    @include column(4);
+	}
+    }
+}

@@ -1,0 +1,83 @@
+html, body{
+    min-width: $base-width;
+    width: auto;
+}
+header{
+    width: $base-width;
+    .header{
+	margin-top: 20px;
+    }
+}
+.container{
+    min-width: $base-width;
+    width: auto;
+}
+//index page mobile view rules
+.container{
+    section{
+	article{
+	    .design, .development, .complex-websites, .code-quality{
+		@include column(8, true);
+		margin-top: 30px;
+		.logo{
+		    @include column(1);
+		    img{
+			width: 34px;
+		    }
+		}
+		.desc{
+		    @include column(7, true);
+		    p{
+			width: 100%;
+		    }
+		}
+	    }
+	}
+	.statistics{
+	    display: none;
+	}
+    }
+}
+.border{
+    display: none;
+}
+.clients{
+    @include column(8);
+    margin: 30px 0 0 0;
+}
+
+//contacts page mobile view rules
+.left-address{
+    @include column(8, true);
+}
+.right-address{
+    @include column(8, true);
+    @include prepend(0);
+    #map{
+        width: 290px;
+        height: 200px;
+        border: 5px solid #fff;
+    }
+}
+.form-txt{
+    @include column(8, true);
+}
+form{
+    @include column(8, true);
+    .form{
+        input{
+            width: 290px;
+            height: 20px;
+        }
+        textarea{
+            width: 290px;
+            height: 100px;
+        }
+        span{
+            display: none;
+        }
+        input.send-button{
+            margin-left: 245px;
+        }
+    }
+}
