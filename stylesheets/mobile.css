@@ -1,0 +1,209 @@
+/* line 1, ../sass/partials/_mobile-base.scss */
+html, body {
+  min-width: 360px;
+  width: auto;
+}
+
+/* line 5, ../sass/partials/_mobile-base.scss */
+header {
+  width: 360px;
+}
+/* line 7, ../sass/partials/_mobile-base.scss */
+header .header {
+  margin-top: 20px;
+}
+
+/* line 11, ../sass/partials/_mobile-base.scss */
+.container {
+  min-width: 360px;
+  width: auto;
+}
+
+/* line 19, ../sass/partials/_mobile-base.scss */
+.container section article .design, .container section article .development, .container section article .complex-websites, .container section article .code-quality {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 0;
+  margin-top: 30px;
+}
+/* line 22, ../sass/partials/_mobile-base.scss */
+.container section article .design .logo, .container section article .development .logo, .container section article .complex-websites .logo, .container section article .code-quality .logo {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 10%;
+  margin-right: 2.5%;
+}
+/* line 24, ../sass/partials/_mobile-base.scss */
+.container section article .design .logo img, .container section article .development .logo img, .container section article .complex-websites .logo img, .container section article .code-quality .logo img {
+  width: 34px;
+}
+/* line 28, ../sass/partials/_mobile-base.scss */
+.container section article .design .desc, .container section article .development .desc, .container section article .complex-websites .desc, .container section article .code-quality .desc {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 85%;
+  margin-right: 0;
+}
+/* line 30, ../sass/partials/_mobile-base.scss */
+.container section article .design .desc p, .container section article .development .desc p, .container section article .complex-websites .desc p, .container section article .code-quality .desc p {
+  width: 100%;
+}
+/* line 36, ../sass/partials/_mobile-base.scss */
+.container section .statistics {
+  display: none;
+}
+
+/* line 41, ../sass/partials/_mobile-base.scss */
+.border {
+  display: none;
+}
+
+/* line 44, ../sass/partials/_mobile-base.scss */
+.clients {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 2.5%;
+  margin: 30px 0 0 0;
+}
+
+/* line 50, ../sass/partials/_mobile-base.scss */
+.left-address {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 0;
+}
+
+/* line 53, ../sass/partials/_mobile-base.scss */
+.right-address {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 0;
+  padding-left: 0%;
+}
+/* line 56, ../sass/partials/_mobile-base.scss */
+.right-address #map {
+  width: 290px;
+  height: 200px;
+  border: 5px solid #fff;
+}
+
+/* line 62, ../sass/partials/_mobile-base.scss */
+.form-txt {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 0;
+}
+
+/* line 65, ../sass/partials/_mobile-base.scss */
+form {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 0;
+}
+/* line 68, ../sass/partials/_mobile-base.scss */
+form .form input {
+  width: 290px;
+  height: 20px;
+}
+/* line 72, ../sass/partials/_mobile-base.scss */
+form .form textarea {
+  width: 290px;
+  height: 100px;
+}
+/* line 76, ../sass/partials/_mobile-base.scss */
+form .form span {
+  display: none;
+}
+/* line 79, ../sass/partials/_mobile-base.scss */
+form .form input.send-button {
+  margin-left: 245px;
+}
+
+/* line 1, ../sass/partials/_mobile-footer.scss */
+footer {
+  min-width: 360px;
+}
+/* line 3, ../sass/partials/_mobile-footer.scss */
+footer .footer-container {
+  min-width: 360px;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 5, ../sass/partials/_mobile-footer.scss */
+footer .footer-container .sitemap {
+  display: none;
+}
+/* line 8, ../sass/partials/_mobile-footer.scss */
+footer .footer-container .resources {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 22.5%;
+  margin-right: 2.5%;
+  padding-left: 0%;
+}
+/* line 12, ../sass/partials/_mobile-footer.scss */
+footer .footer-container .twitter {
+  display: none;
+}
+/* line 15, ../sass/partials/_mobile-footer.scss */
+footer .footer-container .address {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 60%;
+  margin-right: 0;
+}
+/* line 18, ../sass/partials/_mobile-footer.scss */
+footer .footer-container .copyright {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 47.5%;
+  margin-right: 2.5%;
+}
+
+/* line 3, ../sass/partials/_mobile-header.scss */
+header .header .left-side {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.5%;
+  margin-right: 2.5%;
+}
+/* line 5, ../sass/partials/_mobile-header.scss */
+header .header .left-side .slogan {
+  display: none;
+}
+/* line 16, ../sass/partials/_mobile-header.scss */
+header .header .logo {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 47.5%;
+  margin-right: 2.5%;
+  padding-left: 25%;
+  margin-top: 30px;
+}
+/* line 21, ../sass/partials/_mobile-header.scss */
+header .header .logo a img {
+  height: 167px;
+  width: 167px;
+  float: left;
+}
