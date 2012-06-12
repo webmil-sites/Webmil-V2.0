@@ -1112,7 +1112,20 @@ footer .footer-container .address address {
 }
 /* line 82, ../sass/partials/_footer.scss */
 footer .footer-container .copyright {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+}
+/* line 147, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html footer .footer-container .copyright {
+  overflow-x: hidden;
+}
+/* line 84, ../sass/partials/_footer.scss */
+footer .footer-container .copyright p {
   color: #979797;
+  margin-top: 10px;
+  line-height: 18px;
 }
 
 /* line 2, ../sass/partials/_header.scss */
