@@ -80,7 +80,12 @@ footer{
             }
         }
 	.copyright{
-	    color: #979797;
+	    @include column(8);
+	    p{
+		color: #979797;
+		margin-top: 10px;
+		line-height: 18px;
+	    }
 	}
     }
 }

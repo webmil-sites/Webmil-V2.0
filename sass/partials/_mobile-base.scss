@@ -1,12 +1,18 @@
+@include sticky-footer(185px, ".wrap", ".footer-push", "footer");
 html, body{
     min-width: $base-width;
     width: auto;
 }
+body{
+    font-size: 12px;
+    line-height: 18px;
+}
 header{
     width: $base-width;
-    .header{
-	margin-top: 20px;
-    }
+}
+h2{
+    font-size: 20px;
+    line-height: 20px;
 }
 .container{
     min-width: $base-width;
@@ -18,17 +24,18 @@ header{
 	article{
 	    .design, .development, .complex-websites, .code-quality{
 		@include column(8, true);
-		margin-top: 30px;
+		margin-top: 20px;
 		.logo{
 		    @include column(1);
 		    img{
-			width: 34px;
+			width: 30px;
 		    }
 		}
 		.desc{
 		    @include column(7, true);
 		    p{
 			width: 100%;
+			margin: 5px 0 0 0;
 		    }
 		}
 	    }
@@ -43,41 +50,67 @@ header{
 }
 .clients{
     @include column(8);
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
+    .bw{
+	margin:15px 15px 0 0;
+    }
 }
 
 //contacts page mobile view rules
 .left-address{
     @include column(8, true);
+    margin-top: 20px;
+    .address{
+	h2.phone, h2.on-line{
+	    margin-top: 20px;
+	}
+	.locality, .tel, .skype{
+            margin-top: 10px;
+	}
+    }
 }
 .right-address{
     @include column(8, true);
     @include prepend(0);
+    h2{
+	margin-top: 20px;
+    }
     #map{
-        width: 290px;
+        width: 300px;
         height: 200px;
         border: 5px solid #fff;
+	margin-top: 10px;
     }
 }
 .form-txt{
     @include column(8, true);
+    margin-top: 20px;
+    p{
+	margin-top: 10px;
+    }
 }
 form{
     @include column(8, true);
+    margin-top: 10px;
     .form{
-        input{
-            width: 290px;
+	margin-top: 0;
+        input, textarea{
+            width: 300px;
             height: 20px;
+	    font-size: 12px;
         }
         textarea{
-            width: 290px;
             height: 100px;
         }
         span{
             display: none;
         }
         input.send-button{
-            margin-left: 245px;
+            margin-left: 255px;
+	    font-size: 16px;
+        }
+	.send{
+            @include prepend(0);
         }
     }
 }

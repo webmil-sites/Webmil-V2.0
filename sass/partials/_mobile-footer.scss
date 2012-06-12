@@ -2,6 +2,11 @@ footer{
     min-width: $base-width;
     .footer-container{
         @include container;
+	line-height: 18px;
+        padding-top: 20px;
+	ul{
+	    margin-top:10px;
+	}
         .sitemap{
             display: none;
         }
@@ -14,6 +19,9 @@ footer{
         }
         .address{
             @include column(5, true);
+	    address{
+		margin-top: 10px;
+	    }
         }
 	.copyright{
 	    @include column(4);

@@ -1,14 +1,31 @@
 header{
     .header{
+	margin-top: 5px;
 	.left-side{
 	    @include column(8);
 	    .slogan{
 		display: none;
 	    }
-	    .menu{
+	    .lang-list{
 		ul{
 		    li{
-			
+			a{
+			    font-size: 12px;
+			}
+			a.ua{
+			    margin-left: 5px;
+			}
+		    }
+		}
+	    }
+	    .menu{
+		ul{
+		    margin-top: 20px;
+		    li{
+			margin: 0 25px 0 0;
+			a{
+			    font-size: 15px;
+			}
 		    }
 		}
 	    }
@@ -16,11 +33,11 @@ header{
 	.logo{
 	    @include column(4);
 	    @include prepend(2);
-	    margin-top: 30px;
+	    margin-top: 20px;
 	    a{
 		img{
-		    height: 167px;
-		    width: 167px;
+		    height: 150px;
+		    width: 150px;
 		    float: left;
 		}
 	    }
