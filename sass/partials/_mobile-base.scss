@@ -114,3 +114,59 @@ form{
         }
     }
 }
+//studio page mobile view rules
+.container{
+    .about-us, .office, .studio-design, .studio-development, .studio-complex-websites, .studio-code-quality{
+	@include column(8, true);
+	margin-top: 20px;
+	p{
+	    margin-top: 10px;
+	}
+    }
+    .office, .studio-development, .studio-code-quality{
+	h2, p{
+	    margin-left: 0px;
+	}
+    }
+    .studio-design, .studio-development, .studio-complex-websites, .studio-code-quality{
+	margin-top: 20px;
+    }
+    .agile-scrum-advantages{
+	@include column(8, true);
+	margin-top: 20px;
+	.agile-scrum-advantages-p-1{
+	    @include column(8);
+	    p{
+		margin-top: 10px;
+	    }
+	}
+	.agile-scrum-advantages-p-2{
+	    @include column(8);
+	    p{
+		margin: 10px 0 0 0px;
+	    }
+	}
+	.agile-scrum-advantages-p-3{
+	    @include column(8, true);
+	    p{
+		margin-top: 20px;
+	    }
+	}
+    }
+}
+
+//team list rules
+.team{
+    @include column(8);
+    margin-top: 20px;
+    .employees li{
+	 margin: 10px 15px 0 0;
+        img{
+            width: 80px;
+	    height: 94px;
+        }
+        p.fn, p.title{
+            line-height: 16px;
+        }
+    }
+}
