@@ -59,7 +59,7 @@ h2 {
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
 /* line 28, ../sass/partials/_mobile-base.scss */
 .container section article .design .logo, .container section article .development .logo, .container section article .complex-websites .logo, .container section article .code-quality .logo {
@@ -103,7 +103,7 @@ h2 {
   overflow: hidden;
   width: 97.5%;
   margin-right: 2.5%;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 5px;
 }
 /* line 54, ../sass/partials/_mobile-base.scss */
 .clients .bw {
@@ -117,7 +117,7 @@ h2 {
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
 /* line 64, ../sass/partials/_mobile-base.scss */
 .left-address .address h2.phone, .left-address .address h2.on-line {
@@ -136,101 +136,102 @@ h2 {
   width: 97.5%;
   margin-right: 0;
   padding-left: 0%;
+  margin-left: 5px;
 }
-/* line 75, ../sass/partials/_mobile-base.scss */
+/* line 76, ../sass/partials/_mobile-base.scss */
 .right-address h2 {
   margin-top: 20px;
 }
-/* line 78, ../sass/partials/_mobile-base.scss */
+/* line 79, ../sass/partials/_mobile-base.scss */
 .right-address #map {
-  width: 300px;
+  width: 295px;
   height: 200px;
-  border: 5px solid #fff;
+  border: 5px solid #f8f8f8;
   margin-top: 10px;
 }
 
-/* line 85, ../sass/partials/_mobile-base.scss */
+/* line 86, ../sass/partials/_mobile-base.scss */
 .form-txt {
   display: inline;
   float: left;
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
-/* line 88, ../sass/partials/_mobile-base.scss */
+/* line 89, ../sass/partials/_mobile-base.scss */
 .form-txt p {
   margin-top: 10px;
 }
 
-/* line 92, ../sass/partials/_mobile-base.scss */
+/* line 93, ../sass/partials/_mobile-base.scss */
 form {
   display: inline;
   float: left;
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 10px;
+  margin: 10px 0 0 5px;
 }
-/* line 95, ../sass/partials/_mobile-base.scss */
+/* line 96, ../sass/partials/_mobile-base.scss */
 form .form {
   margin-top: 0;
 }
-/* line 97, ../sass/partials/_mobile-base.scss */
+/* line 98, ../sass/partials/_mobile-base.scss */
 form .form input, form .form textarea {
   width: 300px;
   height: 20px;
   font-size: 12px;
 }
-/* line 102, ../sass/partials/_mobile-base.scss */
+/* line 103, ../sass/partials/_mobile-base.scss */
 form .form textarea {
   height: 100px;
 }
-/* line 105, ../sass/partials/_mobile-base.scss */
+/* line 106, ../sass/partials/_mobile-base.scss */
 form .form span {
   display: none;
 }
-/* line 108, ../sass/partials/_mobile-base.scss */
+/* line 109, ../sass/partials/_mobile-base.scss */
 form .form input.send-button {
   margin-left: 255px;
   font-size: 16px;
 }
-/* line 112, ../sass/partials/_mobile-base.scss */
+/* line 113, ../sass/partials/_mobile-base.scss */
 form .form .send {
   padding-left: 0%;
 }
 
-/* line 119, ../sass/partials/_mobile-base.scss */
+/* line 120, ../sass/partials/_mobile-base.scss */
 .container .about-us, .container .office, .container .studio-design, .container .studio-development, .container .studio-complex-websites, .container .studio-code-quality {
   display: inline;
   float: left;
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
-/* line 122, ../sass/partials/_mobile-base.scss */
+/* line 123, ../sass/partials/_mobile-base.scss */
 .container .about-us p, .container .office p, .container .studio-design p, .container .studio-development p, .container .studio-complex-websites p, .container .studio-code-quality p {
   margin-top: 10px;
 }
-/* line 127, ../sass/partials/_mobile-base.scss */
+/* line 128, ../sass/partials/_mobile-base.scss */
 .container .office h2, .container .office p, .container .studio-development h2, .container .studio-development p, .container .studio-code-quality h2, .container .studio-code-quality p {
   margin-left: 0px;
 }
-/* line 131, ../sass/partials/_mobile-base.scss */
+/* line 132, ../sass/partials/_mobile-base.scss */
 .container .studio-design, .container .studio-development, .container .studio-complex-websites, .container .studio-code-quality {
   margin-top: 20px;
 }
-/* line 134, ../sass/partials/_mobile-base.scss */
+/* line 135, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages {
   display: inline;
   float: left;
   overflow: hidden;
   width: 97.5%;
   margin-right: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
-/* line 137, ../sass/partials/_mobile-base.scss */
+/* line 138, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-1 {
   display: inline;
   float: left;
@@ -238,11 +239,11 @@ form .form .send {
   width: 97.5%;
   margin-right: 2.5%;
 }
-/* line 139, ../sass/partials/_mobile-base.scss */
+/* line 140, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-1 p {
   margin-top: 10px;
 }
-/* line 143, ../sass/partials/_mobile-base.scss */
+/* line 144, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-2 {
   display: inline;
   float: left;
@@ -250,11 +251,11 @@ form .form .send {
   width: 97.5%;
   margin-right: 2.5%;
 }
-/* line 145, ../sass/partials/_mobile-base.scss */
+/* line 146, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-2 p {
   margin: 10px 0 0 0px;
 }
-/* line 149, ../sass/partials/_mobile-base.scss */
+/* line 150, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-3 {
   display: inline;
   float: left;
@@ -262,30 +263,30 @@ form .form .send {
   width: 97.5%;
   margin-right: 0;
 }
-/* line 151, ../sass/partials/_mobile-base.scss */
+/* line 152, ../sass/partials/_mobile-base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-3 p {
   margin-top: 20px;
 }
 
-/* line 159, ../sass/partials/_mobile-base.scss */
+/* line 160, ../sass/partials/_mobile-base.scss */
 .team {
   display: inline;
   float: left;
   overflow: hidden;
   width: 97.5%;
   margin-right: 2.5%;
-  margin-top: 20px;
+  margin: 20px 0 0 5px;
 }
-/* line 162, ../sass/partials/_mobile-base.scss */
+/* line 163, ../sass/partials/_mobile-base.scss */
 .team .employees li {
   margin: 10px 15px 0 0;
 }
-/* line 164, ../sass/partials/_mobile-base.scss */
+/* line 165, ../sass/partials/_mobile-base.scss */
 .team .employees li img {
   width: 80px;
   height: 94px;
 }
-/* line 168, ../sass/partials/_mobile-base.scss */
+/* line 169, ../sass/partials/_mobile-base.scss */
 .team .employees li p.fn, .team .employees li p.title {
   line-height: 16px;
 }
@@ -320,12 +321,13 @@ footer .footer-container .resources {
   width: 22.5%;
   margin-right: 2.5%;
   padding-left: 0%;
+  margin-left: 5px;
 }
-/* line 17, ../sass/partials/_mobile-footer.scss */
+/* line 18, ../sass/partials/_mobile-footer.scss */
 footer .footer-container .twitter {
   display: none;
 }
-/* line 20, ../sass/partials/_mobile-footer.scss */
+/* line 21, ../sass/partials/_mobile-footer.scss */
 footer .footer-container .address {
   display: inline;
   float: left;
@@ -333,17 +335,18 @@ footer .footer-container .address {
   width: 60%;
   margin-right: 0;
 }
-/* line 22, ../sass/partials/_mobile-footer.scss */
+/* line 23, ../sass/partials/_mobile-footer.scss */
 footer .footer-container .address address {
   margin-top: 10px;
 }
-/* line 26, ../sass/partials/_mobile-footer.scss */
+/* line 27, ../sass/partials/_mobile-footer.scss */
 footer .footer-container .copyright {
   display: inline;
   float: left;
   overflow: hidden;
   width: 47.5%;
   margin-right: 2.5%;
+  margin-left: 5px;
 }
 
 /* line 2, ../sass/partials/_mobile-header.scss */
@@ -356,33 +359,34 @@ header .header .left-side {
   float: left;
   overflow: hidden;
   width: 97.5%;
-  margin-right: 2.5%;
+  margin-right: 0;
+  margin-left: 5px;
 }
-/* line 6, ../sass/partials/_mobile-header.scss */
+/* line 7, ../sass/partials/_mobile-header.scss */
 header .header .left-side .slogan {
   display: none;
 }
-/* line 12, ../sass/partials/_mobile-header.scss */
+/* line 13, ../sass/partials/_mobile-header.scss */
 header .header .left-side .lang-list ul li a {
   font-size: 12px;
 }
-/* line 15, ../sass/partials/_mobile-header.scss */
+/* line 16, ../sass/partials/_mobile-header.scss */
 header .header .left-side .lang-list ul li a.ua {
   margin-left: 5px;
 }
-/* line 22, ../sass/partials/_mobile-header.scss */
+/* line 23, ../sass/partials/_mobile-header.scss */
 header .header .left-side .menu ul {
   margin-top: 20px;
 }
-/* line 24, ../sass/partials/_mobile-header.scss */
+/* line 25, ../sass/partials/_mobile-header.scss */
 header .header .left-side .menu ul li {
   margin: 0 25px 0 0;
 }
-/* line 26, ../sass/partials/_mobile-header.scss */
+/* line 27, ../sass/partials/_mobile-header.scss */
 header .header .left-side .menu ul li a {
   font-size: 15px;
 }
-/* line 33, ../sass/partials/_mobile-header.scss */
+/* line 34, ../sass/partials/_mobile-header.scss */
 header .header .logo {
   display: inline;
   float: left;
@@ -392,7 +396,7 @@ header .header .logo {
   padding-left: 25%;
   margin-top: 20px;
 }
-/* line 38, ../sass/partials/_mobile-header.scss */
+/* line 39, ../sass/partials/_mobile-header.scss */
 header .header .logo a img {
   height: 150px;
   width: 150px;
