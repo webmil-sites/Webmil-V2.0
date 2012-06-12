@@ -24,7 +24,7 @@ h2{
 	article{
 	    .design, .development, .complex-websites, .code-quality{
 		@include column(8, true);
-		margin-top: 20px;
+		margin: 20px 0 0 5px;
 		.logo{
 		    @include column(1);
 		    img{
@@ -50,7 +50,7 @@ h2{
 }
 .clients{
     @include column(8);
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 5px;
     .bw{
 	margin:15px 15px 0 0;
     }
@@ -59,7 +59,7 @@ h2{
 //contacts page mobile view rules
 .left-address{
     @include column(8, true);
-    margin-top: 20px;
+    margin: 20px 0 0 5px;
     .address{
 	h2.phone, h2.on-line{
 	    margin-top: 20px;
@@ -72,26 +72,27 @@ h2{
 .right-address{
     @include column(8, true);
     @include prepend(0);
+    margin-left: 5px;
     h2{
 	margin-top: 20px;
     }
     #map{
-        width: 300px;
+        width: 295px;
         height: 200px;
-        border: 5px solid #fff;
+        border: 5px solid #f8f8f8;
 	margin-top: 10px;
     }
 }
 .form-txt{
     @include column(8, true);
-    margin-top: 20px;
+    margin: 20px 0 0 5px;
     p{
 	margin-top: 10px;
     }
 }
 form{
     @include column(8, true);
-    margin-top: 10px;
+    margin: 10px 0 0 5px;
     .form{
 	margin-top: 0;
         input, textarea{
@@ -118,7 +119,7 @@ form{
 .container{
     .about-us, .office, .studio-design, .studio-development, .studio-complex-websites, .studio-code-quality{
 	@include column(8, true);
-	margin-top: 20px;
+	margin: 20px 0 0 5px;
 	p{
 	    margin-top: 10px;
 	}
@@ -133,7 +134,7 @@ form{
     }
     .agile-scrum-advantages{
 	@include column(8, true);
-	margin-top: 20px;
+	margin: 20px 0 0 5px;
 	.agile-scrum-advantages-p-1{
 	    @include column(8);
 	    p{
@@ -158,7 +159,7 @@ form{
 //team list rules
 .team{
     @include column(8);
-    margin-top: 20px;
+    margin: 20px 0 0 5px;
     .employees li{
 	 margin: 10px 15px 0 0;
         img{

@@ -2,7 +2,8 @@ header{
     .header{
 	margin-top: 5px;
 	.left-side{
-	    @include column(8);
+	    @include column(8, true);
+	    margin-left: 5px;
 	    .slogan{
 		display: none;
 	    }
