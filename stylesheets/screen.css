@@ -101,39 +101,40 @@ body {
   letter-spacing: normal;
   line-height: 20px;
   color: #4d4d4f;
+  background: #fff;
 }
 
-/* line 17, ../sass/partials/_base.scss */
+/* line 18, ../sass/partials/_base.scss */
 h2 {
   font-family: 'Marmelad', sans-serif;
   font-size: 30px;
   line-height: 30px;
 }
 
-/* line 23, ../sass/partials/_base.scss */
+/* line 24, ../sass/partials/_base.scss */
 h3 {
   font-size: 30px;
   line-height: 30px;
   font-family: 'Impact', 'Techno', 'Charcoal', 'Arial Narrow', 'Tahoma',"Helvetica Inserat", sans-serif;
 }
 
-/* line 29, ../sass/partials/_base.scss */
+/* line 30, ../sass/partials/_base.scss */
 h4 {
   color: #979797;
   font-family: 'Marmelad', sans-serif;
 }
 
-/* line 43, ../sass/partials/_base.scss */
+/* line 44, ../sass/partials/_base.scss */
 a {
   color: #d4372a;
   text-decoration: underline;
 }
-/* line 46, ../sass/partials/_base.scss */
+/* line 47, ../sass/partials/_base.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 51, ../sass/partials/_base.scss */
+/* line 52, ../sass/partials/_base.scss */
 .container {
   width: 950px;
   margin: 0 auto;
@@ -141,7 +142,7 @@ a:hover {
   *zoom: 1;
 }
 
-/* line 59, ../sass/partials/_base.scss */
+/* line 60, ../sass/partials/_base.scss */
 .container section article .design, .container section article .development, .container section article .complex-websites, .container section article .code-quality {
   display: inline;
   float: left;
@@ -153,7 +154,7 @@ a:hover {
 * html .container section article .design, * html .container section article .development, * html .container section article .complex-websites, * html .container section article .code-quality {
   overflow-x: hidden;
 }
-/* line 62, ../sass/partials/_base.scss */
+/* line 63, ../sass/partials/_base.scss */
 .container section article .design .logo, .container section article .development .logo, .container section article .complex-websites .logo, .container section article .code-quality .logo {
   display: inline;
   float: left;
@@ -164,11 +165,11 @@ a:hover {
 * html .container section article .design .logo, * html .container section article .development .logo, * html .container section article .complex-websites .logo, * html .container section article .code-quality .logo {
   overflow-x: hidden;
 }
-/* line 64, ../sass/partials/_base.scss */
+/* line 65, ../sass/partials/_base.scss */
 .container section article .design .logo img, .container section article .development .logo img, .container section article .complex-websites .logo img, .container section article .code-quality .logo img {
   width: 60px;
 }
-/* line 68, ../sass/partials/_base.scss */
+/* line 69, ../sass/partials/_base.scss */
 .container section article .design .desc, .container section article .development .desc, .container section article .complex-websites .desc, .container section article .code-quality .desc {
   display: inline;
   float: left;
@@ -179,12 +180,12 @@ a:hover {
 * html .container section article .design .desc, * html .container section article .development .desc, * html .container section article .complex-websites .desc, * html .container section article .code-quality .desc {
   overflow-x: hidden;
 }
-/* line 70, ../sass/partials/_base.scss */
+/* line 71, ../sass/partials/_base.scss */
 .container section article .design .desc p, .container section article .development .desc p, .container section article .complex-websites .desc p, .container section article .code-quality .desc p {
   margin: 15px 0 0 0;
   width: 400px;
 }
-/* line 76, ../sass/partials/_base.scss */
+/* line 77, ../sass/partials/_base.scss */
 .container section article .development, .container section article .code-quality {
   display: inline;
   float: left;
@@ -195,11 +196,11 @@ a:hover {
 * html .container section article .development, * html .container section article .code-quality {
   overflow-x: hidden;
 }
-/* line 81, ../sass/partials/_base.scss */
+/* line 82, ../sass/partials/_base.scss */
 .container section article .complex-websites .logo img, .container section article .code-quality .logo img {
   margin: 0 0 0 0;
 }
-/* line 87, ../sass/partials/_base.scss */
+/* line 88, ../sass/partials/_base.scss */
 .container section .statistics {
   display: inline;
   float: left;
@@ -210,7 +211,7 @@ a:hover {
 * html .container section .statistics {
   overflow-x: hidden;
 }
-/* line 89, ../sass/partials/_base.scss */
+/* line 90, ../sass/partials/_base.scss */
 .container section .statistics .statistics-heading {
   display: inline;
   float: left;
@@ -222,7 +223,7 @@ a:hover {
 * html .container section .statistics .statistics-heading {
   overflow-x: hidden;
 }
-/* line 92, ../sass/partials/_base.scss */
+/* line 93, ../sass/partials/_base.scss */
 .container section .statistics .statistics-heading .logo {
   display: inline;
   float: left;
@@ -233,12 +234,12 @@ a:hover {
 * html .container section .statistics .statistics-heading .logo {
   overflow-x: hidden;
 }
-/* line 94, ../sass/partials/_base.scss */
+/* line 95, ../sass/partials/_base.scss */
 .container section .statistics .statistics-heading .logo img {
   width: 60px;
   height: 46px;
 }
-/* line 99, ../sass/partials/_base.scss */
+/* line 100, ../sass/partials/_base.scss */
 .container section .statistics .statistics-heading .desc {
   display: inline;
   float: left;
@@ -249,12 +250,12 @@ a:hover {
 * html .container section .statistics .statistics-heading .desc {
   overflow-x: hidden;
 }
-/* line 101, ../sass/partials/_base.scss */
+/* line 102, ../sass/partials/_base.scss */
 .container section .statistics .statistics-heading .desc h2 {
   margin: 19px 0 0 0;
 }
 
-/* line 110, ../sass/partials/_base.scss */
+/* line 111, ../sass/partials/_base.scss */
 .border {
   border: 1px dotted #4d4d4f;
   margin: 0 auto;
@@ -262,7 +263,7 @@ a:hover {
   padding: 30px 40px;
 }
 
-/* line 117, ../sass/partials/_base.scss */
+/* line 118, ../sass/partials/_base.scss */
 .container .statistic-hours {
   display: inline;
   float: left;
@@ -273,39 +274,39 @@ a:hover {
 * html .container .statistic-hours {
   overflow-x: hidden;
 }
-/* line 120, ../sass/partials/_base.scss */
+/* line 121, ../sass/partials/_base.scss */
 .container .statistic-hours ul li {
   padding-left: 71px;
   margin: 40px 0 0 0;
 }
-/* line 123, ../sass/partials/_base.scss */
+/* line 124, ../sass/partials/_base.scss */
 .container .statistic-hours ul li h3 {
   color: #4d4d4f;
 }
-/* line 126, ../sass/partials/_base.scss */
+/* line 127, ../sass/partials/_base.scss */
 .container .statistic-hours ul li p {
   color: #736357;
   font-size: 20px;
   font-family: 'Impact', 'Techno', 'Charcoal', 'Arial Narrow', 'Tahoma',"Helvetica Inserat", sans-serif;
 }
-/* line 132, ../sass/partials/_base.scss */
+/* line 133, ../sass/partials/_base.scss */
 .container .statistic-hours ul .hours-office {
   background: url("../images/statistics-hours-ico.png") 0 0 no-repeat;
   margin: 0;
 }
-/* line 135, ../sass/partials/_base.scss */
+/* line 136, ../sass/partials/_base.scss */
 .container .statistic-hours ul .hours-office h3 {
   padding-top: 10px;
 }
-/* line 139, ../sass/partials/_base.scss */
+/* line 140, ../sass/partials/_base.scss */
 .container .statistic-hours ul .corp-emails {
   background: url("../images/statistics-hours-ico.png") 0 -100px no-repeat;
 }
-/* line 142, ../sass/partials/_base.scss */
+/* line 143, ../sass/partials/_base.scss */
 .container .statistic-hours ul .hours-music {
   background: url("../images/statistics-hours-ico.png") 0 -190px no-repeat;
 }
-/* line 147, ../sass/partials/_base.scss */
+/* line 148, ../sass/partials/_base.scss */
 .container .frameworks {
   display: inline;
   float: left;
@@ -316,16 +317,16 @@ a:hover {
 * html .container .frameworks {
   overflow-x: hidden;
 }
-/* line 149, ../sass/partials/_base.scss */
+/* line 150, ../sass/partials/_base.scss */
 .container .frameworks h3 {
   color: #ad2723;
   margin: 10px 0 0 -15px;
 }
-/* line 153, ../sass/partials/_base.scss */
+/* line 154, ../sass/partials/_base.scss */
 .container .frameworks ul {
   margin: 10px 0 0 -15px;
 }
-/* line 155, ../sass/partials/_base.scss */
+/* line 156, ../sass/partials/_base.scss */
 .container .frameworks ul li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -340,14 +341,14 @@ a:hover {
 .container .frameworks ul li {
   *display: inline;
 }
-/* line 160, ../sass/partials/_base.scss */
+/* line 161, ../sass/partials/_base.scss */
 .container .frameworks ul li p {
   font-family: 'Impact', 'Techno', 'Charcoal', 'Arial Narrow', 'Tahoma',"Helvetica Inserat", sans-serif;
   color: #736357;
   font-size: 18px;
   margin-top: 5px;
 }
-/* line 166, ../sass/partials/_base.scss */
+/* line 167, ../sass/partials/_base.scss */
 .container .frameworks ul li p.percent {
   background: url("../images/percent.png") 0 0 no-repeat;
   font-size: 38px;
@@ -357,11 +358,11 @@ a:hover {
   height: 87px;
   margin-top: 0;
 }
-/* line 177, ../sass/partials/_base.scss */
+/* line 178, ../sass/partials/_base.scss */
 .container .frameworks p.desc {
   margin: 22px 0 0 -15px;
 }
-/* line 181, ../sass/partials/_base.scss */
+/* line 182, ../sass/partials/_base.scss */
 .container .energy-resources {
   display: inline;
   float: left;
@@ -373,7 +374,7 @@ a:hover {
 * html .container .energy-resources {
   overflow-x: hidden;
 }
-/* line 184, ../sass/partials/_base.scss */
+/* line 185, ../sass/partials/_base.scss */
 .container .energy-resources h3 {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -387,7 +388,7 @@ a:hover {
 .container .energy-resources h3 {
   *display: inline;
 }
-/* line 189, ../sass/partials/_base.scss */
+/* line 190, ../sass/partials/_base.scss */
 .container .energy-resources .authentic {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -403,14 +404,14 @@ a:hover {
 .container .energy-resources .authentic {
   *display: inline;
 }
-/* line 195, ../sass/partials/_base.scss */
+/* line 196, ../sass/partials/_base.scss */
 .container .energy-resources .authentic p {
   font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #736357;
 }
-/* line 203, ../sass/partials/_base.scss */
+/* line 204, ../sass/partials/_base.scss */
 .container .energy-resources ul li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -425,56 +426,56 @@ a:hover {
 .container .energy-resources ul li {
   *display: inline;
 }
-/* line 208, ../sass/partials/_base.scss */
+/* line 209, ../sass/partials/_base.scss */
 .container .energy-resources ul li .txt {
   position: absolute;
   bottom: 0;
 }
-/* line 212, ../sass/partials/_base.scss */
+/* line 213, ../sass/partials/_base.scss */
 .container .energy-resources ul li h3 {
   color: #4d4d4f;
   display: block;
   margin-top: 0;
 }
-/* line 217, ../sass/partials/_base.scss */
+/* line 218, ../sass/partials/_base.scss */
 .container .energy-resources ul li p {
   color: #736357;
   font-size: 20px;
   line-height: 20px;
   font-family: 'Impact', 'Techno', 'Charcoal', 'Arial Narrow', 'Tahoma',"Helvetica Inserat", sans-serif;
 }
-/* line 224, ../sass/partials/_base.scss */
+/* line 225, ../sass/partials/_base.scss */
 .container .energy-resources ul .beer {
   background: url("../images/beer.png") 0 0 no-repeat;
   padding-left: 35px;
   width: 120px;
 }
-/* line 229, ../sass/partials/_base.scss */
+/* line 230, ../sass/partials/_base.scss */
 .container .energy-resources ul .coffee {
   background: url("../images/coffee.png") 0 0 no-repeat;
   padding-left: 55px;
   width: 117px;
 }
-/* line 234, ../sass/partials/_base.scss */
+/* line 235, ../sass/partials/_base.scss */
 .container .energy-resources ul .tea {
   background: url("../images/tea.png") 0 0 no-repeat;
   padding-left: 85px;
   width: 90px;
 }
-/* line 239, ../sass/partials/_base.scss */
+/* line 240, ../sass/partials/_base.scss */
 .container .energy-resources ul .bananas {
   background: url("../images/bananas.png") 0 0 no-repeat;
   padding-left: 75px;
   width: 70px;
 }
-/* line 244, ../sass/partials/_base.scss */
+/* line 245, ../sass/partials/_base.scss */
 .container .energy-resources ul .cookies {
   background: url("../images/cookies.png") 0 0 no-repeat;
   padding-left: 65px;
   width: 119px;
 }
 
-/* line 254, ../sass/partials/_base.scss */
+/* line 255, ../sass/partials/_base.scss */
 .clients {
   display: inline;
   float: left;
@@ -486,12 +487,12 @@ a:hover {
 * html .clients {
   overflow-x: hidden;
 }
-/* line 257, ../sass/partials/_base.scss */
+/* line 258, ../sass/partials/_base.scss */
 .clients img {
   height: 57px;
   width: 85px;
 }
-/* line 261, ../sass/partials/_base.scss */
+/* line 262, ../sass/partials/_base.scss */
 .clients .bw {
   position: relative;
   display: block;
@@ -501,7 +502,7 @@ a:hover {
   margin: 15px 30px 0 0;
 }
 
-/* line 273, ../sass/partials/_base.scss */
+/* line 274, ../sass/partials/_base.scss */
 .left-address {
   display: inline;
   float: left;
@@ -513,25 +514,25 @@ a:hover {
 * html .left-address {
   overflow-x: hidden;
 }
-/* line 277, ../sass/partials/_base.scss */
+/* line 278, ../sass/partials/_base.scss */
 .left-address .address h2.on-line, .left-address .address h2.phone {
   margin-top: 40px;
 }
-/* line 280, ../sass/partials/_base.scss */
+/* line 281, ../sass/partials/_base.scss */
 .left-address .address .locality, .left-address .address .tel, .left-address .address .skype {
   margin-top: 20px;
 }
-/* line 285, ../sass/partials/_base.scss */
+/* line 286, ../sass/partials/_base.scss */
 .left-address .address .skype p span {
   color: #4d4d4f;
 }
-/* line 292, ../sass/partials/_base.scss */
+/* line 293, ../sass/partials/_base.scss */
 .left-address .address .mail p span {
   color: #d4372a;
   text-decoration: underline;
 }
 
-/* line 300, ../sass/partials/_base.scss */
+/* line 301, ../sass/partials/_base.scss */
 .right-address {
   display: inline;
   float: left;
@@ -543,11 +544,11 @@ a:hover {
 * html .right-address {
   overflow-x: hidden;
 }
-/* line 303, ../sass/partials/_base.scss */
+/* line 304, ../sass/partials/_base.scss */
 .right-address h2 {
   margin-top: 80px;
 }
-/* line 306, ../sass/partials/_base.scss */
+/* line 307, ../sass/partials/_base.scss */
 .right-address #map {
   display: block;
   margin-top: 20px;
@@ -556,7 +557,7 @@ a:hover {
   width: 690px;
 }
 
-/* line 314, ../sass/partials/_base.scss */
+/* line 315, ../sass/partials/_base.scss */
 .form-txt {
   display: inline;
   float: left;
@@ -568,13 +569,13 @@ a:hover {
 * html .form-txt {
   overflow-x: hidden;
 }
-/* line 317, ../sass/partials/_base.scss */
+/* line 318, ../sass/partials/_base.scss */
 .form-txt p {
   color: #979797;
   margin-top: 20px;
 }
 
-/* line 322, ../sass/partials/_base.scss */
+/* line 323, ../sass/partials/_base.scss */
 form {
   display: inline;
   float: left;
@@ -586,24 +587,24 @@ form {
 * html form {
   overflow-x: hidden;
 }
-/* line 325, ../sass/partials/_base.scss */
+/* line 326, ../sass/partials/_base.scss */
 form .form {
   margin-top: 15px;
 }
-/* line 327, ../sass/partials/_base.scss */
+/* line 328, ../sass/partials/_base.scss */
 form .form label {
   display: block;
   margin: 10px 0 3px 0;
 }
-/* line 331, ../sass/partials/_base.scss */
+/* line 332, ../sass/partials/_base.scss */
 form .form input.error {
   border: 1px solid #eb7272;
 }
-/* line 333, ../sass/partials/_base.scss */
+/* line 334, ../sass/partials/_base.scss */
 form .form input.error:hover, form .form input.error:focus {
   border: 1px solid #eb7272;
 }
-/* line 337, ../sass/partials/_base.scss */
+/* line 338, ../sass/partials/_base.scss */
 form .form input, form .form textarea {
   width: 470px;
   height: 30px;
@@ -616,26 +617,26 @@ form .form input, form .form textarea {
   border-radius: 5px;
   border: 1px solid #e1e1e1;
 }
-/* line 344, ../sass/partials/_base.scss */
+/* line 345, ../sass/partials/_base.scss */
 form .form input:hover, form .form input:focus, form .form textarea:hover, form .form textarea:focus {
   border: 1px solid #4d4d4f;
 }
-/* line 348, ../sass/partials/_base.scss */
+/* line 349, ../sass/partials/_base.scss */
 form .form textarea {
   height: 195px;
   text-indent: 15px;
   padding-top: 10px;
 }
-/* line 353, ../sass/partials/_base.scss */
+/* line 354, ../sass/partials/_base.scss */
 form .form span {
   margin-left: 15px;
   color: #eb7272;
 }
-/* line 357, ../sass/partials/_base.scss */
+/* line 358, ../sass/partials/_base.scss */
 form .form .send {
   padding-left: 400px;
 }
-/* line 360, ../sass/partials/_base.scss */
+/* line 361, ../sass/partials/_base.scss */
 form .form input.send-button {
   display: inline;
   float: left;
@@ -656,12 +657,12 @@ form .form input.send-button {
 * html form .form input.send-button {
   overflow-x: hidden;
 }
-/* line 372, ../sass/partials/_base.scss */
+/* line 373, ../sass/partials/_base.scss */
 form .form input.send-button:hover {
   cursor: pointer;
 }
 
-/* line 381, ../sass/partials/_base.scss */
+/* line 382, ../sass/partials/_base.scss */
 .container .about-us, .container .office, .container .studio-design, .container .studio-development, .container .studio-complex-websites, .container .studio-code-quality {
   display: inline;
   float: left;
@@ -673,11 +674,11 @@ form .form input.send-button:hover {
 * html .container .about-us, * html .container .office, * html .container .studio-design, * html .container .studio-development, * html .container .studio-complex-websites, * html .container .studio-code-quality {
   overflow-x: hidden;
 }
-/* line 384, ../sass/partials/_base.scss */
+/* line 385, ../sass/partials/_base.scss */
 .container .about-us p, .container .office p, .container .studio-design p, .container .studio-development p, .container .studio-complex-websites p, .container .studio-code-quality p {
   margin-top: 20px;
 }
-/* line 388, ../sass/partials/_base.scss */
+/* line 389, ../sass/partials/_base.scss */
 .container .office, .container .studio-development, .container .studio-code-quality {
   display: inline;
   float: left;
@@ -688,15 +689,15 @@ form .form input.send-button:hover {
 * html .container .office, * html .container .studio-development, * html .container .studio-code-quality {
   overflow-x: hidden;
 }
-/* line 390, ../sass/partials/_base.scss */
+/* line 391, ../sass/partials/_base.scss */
 .container .office h2, .container .office p, .container .studio-development h2, .container .studio-development p, .container .studio-code-quality h2, .container .studio-code-quality p {
   margin-left: 5px;
 }
-/* line 394, ../sass/partials/_base.scss */
+/* line 395, ../sass/partials/_base.scss */
 .container .studio-design, .container .studio-development, .container .studio-complex-websites, .container .studio-code-quality {
   margin-top: 60px;
 }
-/* line 397, ../sass/partials/_base.scss */
+/* line 398, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages {
   display: inline;
   float: left;
@@ -708,7 +709,7 @@ form .form input.send-button:hover {
 * html .container .agile-scrum-advantages {
   overflow-x: hidden;
 }
-/* line 400, ../sass/partials/_base.scss */
+/* line 401, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-1 {
   display: inline;
   float: left;
@@ -719,11 +720,11 @@ form .form input.send-button:hover {
 * html .container .agile-scrum-advantages .agile-scrum-advantages-p-1 {
   overflow-x: hidden;
 }
-/* line 402, ../sass/partials/_base.scss */
+/* line 403, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-1 p {
   margin-top: 20px;
 }
-/* line 406, ../sass/partials/_base.scss */
+/* line 407, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-2 {
   display: inline;
   float: left;
@@ -734,11 +735,11 @@ form .form input.send-button:hover {
 * html .container .agile-scrum-advantages .agile-scrum-advantages-p-2 {
   overflow-x: hidden;
 }
-/* line 408, ../sass/partials/_base.scss */
+/* line 409, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-2 p {
   margin: 20px 0 0 5px;
 }
-/* line 412, ../sass/partials/_base.scss */
+/* line 413, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-3 {
   display: inline;
   float: left;
@@ -749,12 +750,12 @@ form .form input.send-button:hover {
 * html .container .agile-scrum-advantages .agile-scrum-advantages-p-3 {
   overflow-x: hidden;
 }
-/* line 414, ../sass/partials/_base.scss */
+/* line 415, ../sass/partials/_base.scss */
 .container .agile-scrum-advantages .agile-scrum-advantages-p-3 p {
   margin-top: 45px;
 }
 
-/* line 422, ../sass/partials/_base.scss */
+/* line 423, ../sass/partials/_base.scss */
 .team {
   display: inline;
   float: left;
@@ -766,7 +767,7 @@ form .form input.send-button:hover {
 * html .team {
   overflow-x: hidden;
 }
-/* line 425, ../sass/partials/_base.scss */
+/* line 426, ../sass/partials/_base.scss */
 .team .employees li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -779,65 +780,65 @@ form .form input.send-button:hover {
 .team .employees li {
   *display: inline;
 }
-/* line 428, ../sass/partials/_base.scss */
+/* line 429, ../sass/partials/_base.scss */
 .team .employees li img {
   width: 157px;
   height: 185px;
 }
-/* line 432, ../sass/partials/_base.scss */
+/* line 433, ../sass/partials/_base.scss */
 .team .employees li p.fn {
   color: #4f4f4f;
   margin-top: 0;
 }
-/* line 436, ../sass/partials/_base.scss */
+/* line 437, ../sass/partials/_base.scss */
 .team .employees li p.title {
   color: #979797;
   font-size: 12px;
   margin-top: 0;
 }
 
-/* line 445, ../sass/partials/_base.scss */
+/* line 446, ../sass/partials/_base.scss */
 .works {
   width: 100%;
   margin-top: 60px;
 }
-/* line 448, ../sass/partials/_base.scss */
+/* line 449, ../sass/partials/_base.scss */
 .works ul {
   width: 100%;
 }
-/* line 450, ../sass/partials/_base.scss */
+/* line 451, ../sass/partials/_base.scss */
 .works ul li {
   width: 400px;
   height: 200px;
   float: left;
 }
-/* line 455, ../sass/partials/_base.scss */
+/* line 456, ../sass/partials/_base.scss */
 .works ul li:hover .color-1 {
   background: #9c2522;
 }
-/* line 458, ../sass/partials/_base.scss */
+/* line 459, ../sass/partials/_base.scss */
 .works ul li:hover .color-2 {
   background: #f0525b;
 }
-/* line 461, ../sass/partials/_base.scss */
+/* line 462, ../sass/partials/_base.scss */
 .works ul li:hover .color-3 {
   background: #9a6e39;
 }
-/* line 464, ../sass/partials/_base.scss */
+/* line 465, ../sass/partials/_base.scss */
 .works ul li:hover .color-4 {
   background: #e16c34;
 }
-/* line 468, ../sass/partials/_base.scss */
+/* line 469, ../sass/partials/_base.scss */
 .works ul li a {
   float: left;
   display: block;
 }
-/* line 471, ../sass/partials/_base.scss */
+/* line 472, ../sass/partials/_base.scss */
 .works ul li a img {
   width: 200px;
   height: 200px;
 }
-/* line 477, ../sass/partials/_base.scss */
+/* line 478, ../sass/partials/_base.scss */
 .works ul li .work-short-desc {
   float: left;
   width: 180px;
@@ -845,19 +846,19 @@ form .form input.send-button:hover {
   padding: 20px 10px;
   position: relative;
 }
-/* line 483, ../sass/partials/_base.scss */
+/* line 484, ../sass/partials/_base.scss */
 .works ul li .work-short-desc a {
   color: #fff;
   font-family: 'Marmelad', sans-serif;
   text-decoration: none;
 }
-/* line 489, ../sass/partials/_base.scss */
+/* line 490, ../sass/partials/_base.scss */
 .works ul li .work-short-desc p a {
   padding-left: 10px;
   font-size: 18px;
   line-height: 18px;
 }
-/* line 495, ../sass/partials/_base.scss */
+/* line 496, ../sass/partials/_base.scss */
 .works ul li .work-short-desc .link {
   font-size: 24px;
   line-height: 24px;
@@ -865,46 +866,46 @@ form .form input.send-button:hover {
   bottom: 20px;
   left: 10px;
 }
-/* line 503, ../sass/partials/_base.scss */
+/* line 504, ../sass/partials/_base.scss */
 .works ul li .color-1 {
   background: #a1a1a1;
 }
-/* line 506, ../sass/partials/_base.scss */
+/* line 507, ../sass/partials/_base.scss */
 .works ul li .color-2 {
   background: #c3c3c3;
 }
-/* line 509, ../sass/partials/_base.scss */
+/* line 510, ../sass/partials/_base.scss */
 .works ul li .color-3 {
   background: #acacac;
 }
-/* line 512, ../sass/partials/_base.scss */
+/* line 513, ../sass/partials/_base.scss */
 .works ul li .color-4 {
   background: #d5d5d5;
 }
 
-/* line 520, ../sass/partials/_base.scss */
+/* line 521, ../sass/partials/_base.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 523, ../sass/partials/_base.scss */
+/* line 524, ../sass/partials/_base.scss */
 .bwWrapper {
   position: relative;
   display: block;
 }
 
-/* line 529, ../sass/partials/_base.scss */
+/* line 530, ../sass/partials/_base.scss */
 .work-background {
   background: #f8f8f8;
   margin: 60px auto 0 auto;
   width: 950px;
   padding: 30px 40px;
 }
-/* line 536, ../sass/partials/_base.scss */
+/* line 537, ../sass/partials/_base.scss */
 .work-background .container .work h2 {
   position: relative;
 }
-/* line 538, ../sass/partials/_base.scss */
+/* line 539, ../sass/partials/_base.scss */
 .work-background .container .work h2 .link {
   font-size: 12px;
   line-height: 20px;
@@ -915,40 +916,40 @@ form .form input.send-button:hover {
   bottom: 0;
   right: 0;
 }
-/* line 547, ../sass/partials/_base.scss */
+/* line 548, ../sass/partials/_base.scss */
 .work-background .container .work h2 .link:hover {
   color: #d4372a;
 }
-/* line 553, ../sass/partials/_base.scss */
+/* line 554, ../sass/partials/_base.scss */
 .work-background .container .work a {
   line-height: 24px;
   text-decoration: underline;
 }
-/* line 557, ../sass/partials/_base.scss */
+/* line 558, ../sass/partials/_base.scss */
 .work-background .container .work .description {
   margin-top: 10px;
 }
-/* line 559, ../sass/partials/_base.scss */
+/* line 560, ../sass/partials/_base.scss */
 .work-background .container .work .description p {
   font-size: 12px;
   line-height: 18px;
   color: #000;
 }
-/* line 563, ../sass/partials/_base.scss */
+/* line 564, ../sass/partials/_base.scss */
 .work-background .container .work .description p span {
   color: #4d4d4f;
 }
-/* line 568, ../sass/partials/_base.scss */
+/* line 569, ../sass/partials/_base.scss */
 .work-background .container .work .screenshots {
   margin-top: 15px;
 }
-/* line 570, ../sass/partials/_base.scss */
+/* line 571, ../sass/partials/_base.scss */
 .work-background .container .work .screenshots img {
   margin-top: 10px;
   width: 950px;
 }
 
-/* line 579, ../sass/partials/_base.scss */
+/* line 580, ../sass/partials/_base.scss */
 .container .advertising {
   display: inline;
   float: left;
@@ -959,7 +960,7 @@ form .form input.send-button:hover {
 * html .container .advertising {
   overflow-x: hidden;
 }
-/* line 581, ../sass/partials/_base.scss */
+/* line 582, ../sass/partials/_base.scss */
 .container .advertising .booklet {
   display: inline;
   float: left;
@@ -971,15 +972,15 @@ form .form input.send-button:hover {
 * html .container .advertising .booklet {
   overflow-x: hidden;
 }
-/* line 584, ../sass/partials/_base.scss */
+/* line 585, ../sass/partials/_base.scss */
 .container .advertising .booklet img {
   width: 950px;
 }
-/* line 588, ../sass/partials/_base.scss */
+/* line 589, ../sass/partials/_base.scss */
 .container .advertising .city-light {
   padding-left: 240px;
 }
-/* line 590, ../sass/partials/_base.scss */
+/* line 591, ../sass/partials/_base.scss */
 .container .advertising .city-light img {
   width: 530px;
 }
