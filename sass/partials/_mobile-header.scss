@@ -3,12 +3,12 @@ header{
 	margin-top: 5px;
 	.left-side{
 	    @include column(8, true);
-	    margin-left: 5px;
 	    .slogan{
 		display: none;
 	    }
 	    .lang-list{
 		ul{
+		    margin-left: 5px;
 		    li{
 			a{
 			    font-size: 12px;
@@ -21,7 +21,7 @@ header{
 	    }
 	    .menu{
 		ul{
-		    margin-top: 20px;
+		    margin: 20px 0 0 5px;
 		    li{
 			margin: 0 25px 0 0;
 			a{

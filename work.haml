@@ -5,6 +5,8 @@
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"}
     %title Webmil
     %link{'rel' => 'stylesheet', 'href' => 'stylesheets/screen.css', 'media' => 'screen, projection'}
+    %link{'rel' => 'stylesheet', 'href' => 'stylesheets/mobile.css', 'media' => 'screen and (max-width: 330px)'}
+    %link{'rel' => 'stylesheet', 'href' => 'stylesheets/mobile.css', 'media' => 'screen and (max-device-width: 330px)'}
     %link{rel: 'stylesheet', href: 'stylesheets/print.css', media: 'print'}
     /[if lt IE 9]
       %script{src: 'http://html5shiv.googlecode.com/svn/trunk/html5.js'}
@@ -104,4 +106,5 @@
             .locality{itemprop: "addressLocality"} UKRAINE, Ivano-Frankivs’k
             .street{itemprop: "streetAddress"} Sichovyh Strilciv Street, 31
           %a{href: "#"} Map & directions
-        %p.copyright © 2009-2012 Webmil lab. All rights reserved.
+        .copyright
+          %p © 2009-2012 Webmil lab. All rights reserved.

@@ -13,7 +13,9 @@ footer{
         .resources{
             @include column(2);
 	    @include prepend(0);
-	    margin-left: 5px;
+	    ul, h4{
+		margin-left: 5px;
+	    }
         }
         .twitter{
             display: none;
@@ -26,7 +28,9 @@ footer{
         }
 	.copyright{
 	    @include column(4);
-	    margin-left: 5px;
+	    p{
+		margin-left: 5px;
+	    }
 	}
     }
 }
